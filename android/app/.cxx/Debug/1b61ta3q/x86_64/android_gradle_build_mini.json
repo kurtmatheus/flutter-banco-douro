@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Users\\kurtm\\Documents\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\kurtm\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\kurtm\\Documents\\FlutterProjects\\flutter_banco_douro-aula02\\android\\app\\.cxx\\Debug\\1b61ta3q\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\kurtm\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\kurtm\\Documents\\FlutterProjects\\flutter_banco_douro-aula02\\android\\app\\.cxx\\Debug\\1b61ta3q\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
