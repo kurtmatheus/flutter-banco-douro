@@ -11,6 +11,7 @@ class AccountWidget extends StatelessWidget {
     return Container(
       height: 128,
       padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
           color: AppColors.lightOrange,
           borderRadius: BorderRadius.circular(12)),
@@ -28,7 +29,7 @@ class AccountWidget extends StatelessWidget {
               ),),
               Text("ID: ${account.id}"),
               Text("Saldo: ${account.balance}"),
-              Text("Tipo: ${account.accountType}")
+              Text("Tipo: ${account.accountType ?? "Sem Tipo de Conta"}")
             ],
           ),
           IconButton(onPressed: () {}, icon: const Icon(Icons.settings))

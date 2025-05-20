@@ -1,5 +1,6 @@
 import 'dart:async';
 
+
 import 'package:flutter_banco_douro/api_key.dart';
 import 'package:http/http.dart';
 import 'dart:convert';
@@ -11,7 +12,7 @@ class AccountService {
   final StreamController<String> _streamController = StreamController<String>();
   Stream<String> get streamInfos => _streamController.stream;
 
-  String url = "https://api.github.com/gists/<id_do_gist_aqui>";
+  String url = "https://api.github.com/gists/52403cf53a5ce5a94e6b9529d447c3ef";
 
   Future<List<Account>> getAll() async {
     Response response = await get(
@@ -48,7 +49,6 @@ class AccountService {
     }
 
     String content = json.encode(listContent);
-    print(content);
 
     Response response = await post(
       Uri.parse(url),
