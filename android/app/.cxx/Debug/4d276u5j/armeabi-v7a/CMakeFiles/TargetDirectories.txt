@@ -1,0 +1,2 @@
+C:/Users/kurtm/VSCodeProjects/flutter-banco-douro/android/app/.cxx/Debug/4d276u5j/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/kurtm/VSCodeProjects/flutter-banco-douro/android/app/.cxx/Debug/4d276u5j/armeabi-v7a/CMakeFiles/rebuild_cache.dir
